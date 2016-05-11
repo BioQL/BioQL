@@ -1,0 +1,4 @@
+# .travis.yml, for "Travis CI" metadata of BioQL®.
+# @require  : Node.js®/NPM/Grunt
+# @task     : grunt bump
+# @author   : Prabhat Kumar, http://prabhatkumar.org/.
