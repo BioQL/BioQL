@@ -48,3 +48,5 @@ var mkdirp    = require('mkdirp');
 var equal     = require('deep-equal');
 // Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
 var readlineSync    = require('readline-sync');
+// Returns a copy of an object with its keys sorted.
+var sortedObject    = require('sorted-object');
