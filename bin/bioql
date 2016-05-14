@@ -50,3 +50,5 @@ var equal     = require('deep-equal');
 var readlineSync    = require('readline-sync');
 // Returns a copy of an object with its keys sorted.
 var sortedObject    = require('sorted-object');
+// The process object is a global object and can be accessed from anywhere. It is an instance of EventEmitter.
+var _exit           = process.exit;
