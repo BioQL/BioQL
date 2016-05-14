@@ -52,3 +52,8 @@ var readlineSync    = require('readline-sync');
 var sortedObject    = require('sorted-object');
 // The process object is a global object and can be accessed from anywhere. It is an instance of EventEmitter.
 var _exit           = process.exit;
+
+// Native Node.js® "os" module to provide some basic operating-system related utility functions.
+// -----> https://nodejs.org/api/os.html
+// [1.]-> os.EOL: A constant defining the appropriate End-of-line marker for the operating system.
+var eol             = os.EOL;
