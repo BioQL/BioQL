@@ -40,3 +40,5 @@
 // Components of a command line application.
 var fs    = require('fs');
 var path  = require('path');
+// Node.js® "os" module to provide some basic operating-system related utility functions.
+var os    = require('os');
