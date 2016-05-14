@@ -39,3 +39,4 @@
  */
 // Components of a command line application.
 var fs    = require('fs');
+var path  = require('path');
