@@ -44,3 +44,4 @@ var path  = require('path');
 var os    = require('os');
 // Module dependencies.
 var program   = require('commander');
+var mkdirp    = require('mkdirp');
