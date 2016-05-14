@@ -61,3 +61,6 @@ var eol             = os.EOL;
 ///       Possible values are 'darwin', 'freebsd', 'linux', 'sunos' or 'win32'.
 ///       Returns the value of process.platform.
 var Qos             = os.platform;
+
+// Re-assign process.exit because of commander.
+process.exit = exit
