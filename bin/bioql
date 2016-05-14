@@ -46,3 +46,5 @@ var os    = require('os');
 var program   = require('commander');
 var mkdirp    = require('mkdirp');
 var equal     = require('deep-equal');
+// Synchronous Readline for interactively running to have a conversation with the user via a console(TTY).
+var readlineSync    = require('readline-sync');
