@@ -57,3 +57,7 @@ var _exit           = process.exit;
 // -----> https://nodejs.org/api/os.html
 // [1.]-> os.EOL: A constant defining the appropriate End-of-line marker for the operating system.
 var eol             = os.EOL;
+// [2.]-> os.platform: Returns the operating system platform.
+///       Possible values are 'darwin', 'freebsd', 'linux', 'sunos' or 'win32'.
+///       Returns the value of process.platform.
+var Qos             = os.platform;
