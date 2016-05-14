@@ -37,3 +37,5 @@
  *                        limitations under the License.
  * ___________________________________________________________________________
  */
+// Components of a command line application.
+var fs    = require('fs');
