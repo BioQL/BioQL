@@ -1,0 +1,6 @@
+{
+  "preset": "node-style-guide",
+  "maximumLineLength": null,
+  "requireSemicolons": true,
+  "disallowUnusedParams": true
+}
